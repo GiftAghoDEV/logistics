@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    /* overflow-x: hidden; */
+}
+.list{
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 20px;
+    background-color: white;
+    /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.74); */
+    flex-wrap: wrap;
+
+    
+}
+.logo{
+    line-height: 15px;
+}
+.btn{
+    height: 30px;
+    width: 130px;
+    background-color: darkorange;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-top: 3px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover {
+    color: darkorange;
+}
+.img{
+    margin-top: 15px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    margin-top: -430px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 370px;
+}
+.text span{
+    color: darkorange;
+}
+.text p{
+    font-size: 20px;
+    color: rgb(65, 65, 65);
+    margin-top: 20px;
+}
+.code{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 420px;
+    
+}
+.btw{
+    position: absolute;
+    margin-top: -194px;
+    margin-left: 51rem;
+}
+.btw a{
+    text-decoration: none;
+    color: white;
+}
+.pot{
+    margin-top: 40px;
+    margin-left: 400px;
+    font-size: 40px;
+}
+.card{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.137);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    
+}
+.ship{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.card p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.pox{
+    margin-top: 60px;
+    /* position: relative; */
+}
+.app{
+    margin-left: 80px;
+    margin-top: -300px;
+    color: white;
+    font-size: 40px;
+}
+.bards{
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.13);
+}
+.bard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 110px;
+    margin-top: 40px;
+
+}
+.pan{
+    height: 30px;
+    width: 500px;
+    margin-left: 5px;
+}
+
+.next{
+    font-size: 40px;
+}
+
+.whole{
+    text-align: center;
+    margin-top: 100px;
+}
+.pass a{
+    text-decoration: none;
+    color: black;
+}
+.but a{
+    text-decoration: none;
+    color: white;
+}
+.box{
+    height: 10px;
+    margin-left: -230px;
+    margin-top: 10px;
+}
+ .big{
+     text-align: center;
+     margin-top: 100px;
+ }
+ .mat{
+     height: 300px;
+     width: 350px;
+     color: white;
+     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.13);
+ }
+
+ .mats{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin-top: 100px;
+ }
+ .mat h2{
+     margin-top: 20px;
+     text-align: center;
+ }
+ .mat h2 a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .sub-menu-2
+{
+    display: none;
+}
+
+.tiers:hover .sub-menu-2
+{
+    /* position: absolute; */
+    display: block;
+    /* margin-top: -40px;
+    margin-left: 140px; */
+    background-color:darkorange;
+}
+ 
